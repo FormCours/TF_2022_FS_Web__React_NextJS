@@ -4,6 +4,9 @@ dependencies:
   autoprefixer:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.23)
+  lowdb:
+    specifier: ^6.0.0
+    version: 6.0.0
   next:
     specifier: 13.3.0
     version: 13.3.0(react-dom@18.2.0)(react@18.2.0)
@@ -447,6 +450,13 @@ packages:
       js-tokens: 4.0.0
     dev: false
 
+  /lowdb@6.0.0:
+    resolution: {integrity: sha512-0gzvRjT5Nv3nYbjy0I3FcYjuTNFWLEb0nvRYyb56XodR+7lasgWdxQ6FhIziJu6xHIiJb9xxKLrB1OPJjFZkmQ==}
+    engines: {node: '>=16'}
+    dependencies:
+      steno: 3.0.0
+    dev: false
+
   /merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
@@ -729,6 +739,11 @@ packages:
   /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /steno@3.0.0:
+    resolution: {integrity: sha512-uZtn7Ht9yXLiYgOsmo8btj4+f7VxyYheMt8g6F1ANjyqByQXEE2Gygjgenp3otHH1TlHsS4JAaRGv5wJ1wvMNw==}
+    engines: {node: '>=14.16'}
     dev: false
 
   /streamsearch@1.1.0:
